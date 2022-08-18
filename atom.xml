@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>zhaoxin-wen</title>
-  <icon>https://zhaoxin-wen.github.io/images/favicon_200x200.png</icon>
+  
   <subtitle>技术改变世界</subtitle>
   <link href="https://zhaoxin-wen.github.io/atom.xml" rel="self"/>
   
