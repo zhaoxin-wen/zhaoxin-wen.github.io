@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zhaoxin-wen</title>
+  <icon>https://zhaoxin-wen.github.io/images/favicon_200x200.png</icon>
+  <subtitle>技术改变世界</subtitle>
+  <link href="https://zhaoxin-wen.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zhaoxin-wen.github.io/"/>
+  <updated>2022-08-18T01:11:49.862Z</updated>
+  <id>https://zhaoxin-wen.github.io/</id>
+  
+  <author>
+    <name>zhaoxin-wen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://zhaoxin-wen.github.io/2022/08/18/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://zhaoxin-wen.github.io/2022/08/18/%E6%B5%8B%E8%AF%95/</id>
+    <published>2022-08-18T01:11:49.000Z</published>
+    <updated>2022-08-18T01:11:49.862Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一篇正经的文章</title>
+    <link href="https://zhaoxin-wen.github.io/2022/08/17/%E4%B8%80%E7%AF%87%E6%AD%A3%E7%BB%8F%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+    <id>https://zhaoxin-wen.github.io/2022/08/17/%E4%B8%80%E7%AF%87%E6%AD%A3%E7%BB%8F%E7%9A%84%E6%96%87%E7%AB%A0/</id>
+    <published>2022-08-17T15:06:05.000Z</published>
+    <updated>2022-08-17T15:10:10.237Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;我是一级标题&quot;&gt;&lt;a href=&quot;#我是一级标题&quot; class=&quot;headerlink&quot; title=&quot;我是一级标题&quot;&gt;&lt;/a&gt;我是一级标题&lt;/h1&gt;&lt;h2 id=&quot;我是二级标题。&quot;&gt;&lt;a href=&quot;#我是二级标题。&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="数据库" scheme="https://zhaoxin-wen.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>testcommit</title>
+    <link href="https://zhaoxin-wen.github.io/2022/08/17/testcommit/"/>
+    <id>https://zhaoxin-wen.github.io/2022/08/17/testcommit/</id>
+    <published>2022-08-17T09:15:37.000Z</published>
+    <updated>2022-08-17T09:16:18.602Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;dfdfdfstesat&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+    <category term="数据库" scheme="https://zhaoxin-wen.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>fourth</title>
+    <link href="https://zhaoxin-wen.github.io/2022/08/17/test/"/>
+    <id>https://zhaoxin-wen.github.io/2022/08/17/test/</id>
+    <published>2022-08-17T08:30:35.000Z</published>
+    <updated>2022-08-17T08:34:44.537Z</updated>
+    
+    
+    
+    
+    <category term="mysql" scheme="https://zhaoxin-wen.github.io/categories/mysql/"/>
+    
+    
+    <category term="快捷键" scheme="https://zhaoxin-wen.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+    <category term="数据库" scheme="https://zhaoxin-wen.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zhaoxin-wen.github.io/2022/08/17/hello-world/"/>
+    <id>https://zhaoxin-wen.github.io/2022/08/17/hello-world/</id>
+    <published>2022-08-17T00:25:50.806Z</published>
+    <updated>2022-08-17T11:39:09.368Z</updated>
+    
+    
+    <summary type="html">自建的博客怎么能没有分类和标签呢，所以我就去查了一下怎么去配置分类和标签。</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
