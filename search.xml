@@ -4,76 +4,23 @@
   
     
     <entry>
-      <title>测试</title>
-      <link href="/2022/08/18/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2022/08/18/%E6%B5%8B%E8%AF%95/</url>
+      <title>markdown语法</title>
+      <link href="/2022/08/22/markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2022/08/22/markdown%E8%AF%AD%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>一篇正经的文章</title>
-      <link href="/2022/08/17/%E4%B8%80%E7%AF%87%E6%AD%A3%E7%BB%8F%E7%9A%84%E6%96%87%E7%AB%A0/"/>
-      <url>/2022/08/17/%E4%B8%80%E7%AF%87%E6%AD%A3%E7%BB%8F%E7%9A%84%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题。"><a href="#我是二级标题。" class="headerlink" title="我是二级标题。"></a>我是二级标题。</h2><p>我是正文</p><h2 id="我是二级标题。-1"><a href="#我是二级标题。-1" class="headerlink" title="我是二级标题。"></a>我是二级标题。</h2><h2 id="我是二级标题。-2"><a href="#我是二级标题。-2" class="headerlink" title="我是二级标题。"></a>我是二级标题。</h2><h2 id="我是二级标题。-3"><a href="#我是二级标题。-3" class="headerlink" title="我是二级标题。"></a>我是二级标题。</h2><h2 id="我是二级标题。-4"><a href="#我是二级标题。-4" class="headerlink" title="我是二级标题。"></a>我是二级标题。</h2><h2 id="我是二级标题。-5"><a href="#我是二级标题。-5" class="headerlink" title="我是二级标题。"></a>我是二级标题。</h2>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 数据库 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>testcommit</title>
-      <link href="/2022/08/17/testcommit/"/>
-      <url>/2022/08/17/testcommit/</url>
-      
-        <content type="html"><![CDATA[<p>dfdfdfstesat</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 数据库 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>fourth</title>
-      <link href="/2022/08/17/test/"/>
-      <url>/2022/08/17/test/</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>markdown是写博客的必备知识。以下markdown语法按照个人喜好程度排序。本文包括不同等级标题，字体，建立分号线，删除线，下划线，脚注，代码段，链接，图片，列表，区块，表格，转义。</p><h3 id="1-使用‘-’号一级标题，以此类推，最多六级标题"><a href="#1-使用‘-’号一级标题，以此类推，最多六级标题" class="headerlink" title="1.使用‘#’号一级标题，以此类推，最多六级标题"></a>1.使用‘#’号一级标题，以此类推，最多六级标题</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure><h3 id="2-字体"><a href="#2-字体" class="headerlink" title="2.字体"></a>2.字体</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">**粗体文本**</span><br><span class="line">***粗斜体文本***</span><br></pre></td></tr></table></figure><p><em>斜体文本</em><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em></p><span id="more"></span><h3 id="3-三个以上的‘-’建立分割线"><a href="#3-三个以上的‘-’建立分割线" class="headerlink" title="3.三个以上的‘*’建立分割线"></a>3.三个以上的‘*’建立分割线</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">***</span><br></pre></td></tr></table></figure><hr><h3 id="4-如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线-即可"><a href="#4-如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线-即可" class="headerlink" title="4.如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可"></a>4.如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <strong>~~</strong> 即可</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~你好~~</span><br></pre></td></tr></table></figure><p><del>你好</del></p><h3 id="5-‘-lt-u’标签实现下划线"><a href="#5-‘-lt-u’标签实现下划线" class="headerlink" title="5. ‘&lt;u’标签实现下划线"></a>5. ‘&lt;u’标签实现下划线</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;</span><br></pre></td></tr></table></figure><p><u>带下划线文本</u></p><h3 id="6-脚注"><a href="#6-脚注" class="headerlink" title="6.脚注"></a>6.脚注</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">需要脚注的文本 [^脚注1]。</span><br><span class="line">[^脚注1]: 脚注的内容</span><br></pre></td></tr></table></figure><h3 id="7-用-96-可以把函数或片段包起来"><a href="#7-用-96-可以把函数或片段包起来" class="headerlink" title="7. 用&#96;可以把函数或片段包起来"></a>7. 用&#96;可以把函数或片段包起来</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`pirnt()`函数</span><br></pre></td></tr></table></figure><p><code>print()</code>函数</p><h3 id="8-用-96-96-96-包裹一段代码"><a href="#8-用-96-96-96-包裹一段代码" class="headerlink" title="8. 用 &#96;&#96;&#96; 包裹一段代码"></a>8. 用 <em><strong>&#96;&#96;&#96;</strong></em> 包裹一段代码</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">for(i=0; i&lt;n; i++)&#123;</span><br><span class="line">        for(j=1; j&lt;n-i; j++)&#123;</span><br><span class="line">            if(a[j-1] &gt; a[j])&#123;        </span><br><span class="line">                int temp;temp = a[j-1];</span><br><span class="line">                a[j-1] = a[j];</span><br><span class="line">                a[j]=temp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="9-链接"><a href="#9-链接" class="headerlink" title="9. 链接"></a>9. 链接</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是我的博客 [zhaoxin-wen的博客](https://zhaoxin-wen.github.io/)</span><br></pre></td></tr></table></figure><p>这是我的博客 <a href="https://zhaoxin-wen.github.io/">zhaoxin-wen的博客</a></p><p>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">这是我的博客[zhoaxin-wen][1]</span><br><span class="line">这是chilijmmm的博客[chilijmmm][2]</span><br><span class="line">[1]: https://zhaoxin-wen.github.io/</span><br><span class="line">[2]: http://chilijmmm.top/</span><br></pre></td></tr></table></figure><p>这是我的博客<a href="https://zhaoxin-wen.github.io/">zhoaxin-wen</a><br>这是chilijmmm的博客<a href="http://chilijmmm.top/">chilijmmm</a></p><h3 id="10-图片"><a href="#10-图片" class="headerlink" title="10.图片"></a>10.图片</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">![alt 属性文本](图片地址)</span><br><span class="line">![alt 属性文本](图片地址 &quot;可选标题&quot;)</span><br><span class="line">![我的头像](https://pic4.zhimg.com/80/v2-f77332502877c2f4575f3ac56c85ea9f_720w.jpg)</span><br><span class="line">![我的头像](https://pic4.zhimg.com/80/v2-f77332502877c2f4575f3ac56c85ea9f_720w.jpg &quot;HeadImg&quot;)</span><br></pre></td></tr></table></figure><p><img src="https://pic4.zhimg.com/80/v2-f77332502877c2f4575f3ac56c85ea9f_720w.jpg" alt="我的头像"></p><p>Markdown 还没有办法指定图片的高度与宽度，推荐使用<code>&lt;img&gt;</code>标签。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;https://pic4.zhimg.com/80/v2-f77332502877c2f4575f3ac56c85ea9f_720w.jpg&quot; width=&quot;30%&quot;&gt;</span><br></pre></td></tr></table></figure><img src="https://pic4.zhimg.com/80/v2-f77332502877c2f4575f3ac56c85ea9f_720w.jpg" width="30%"><h3 id="11-单个-表示无序列表，1-数字-表示有序列表。-列表说明"><a href="#11-单个-表示无序列表，1-数字-表示有序列表。-列表说明" class="headerlink" title="11. 单个*表示无序列表，1.(数字.)表示有序列表。^列表说明"></a>11. 单个<code>*</code>表示无序列表，<code>1.(数字.)</code>表示有序列表。<a href="%60*%60%E5%92%8C%601.%60%E5%90%8E%E9%9D%A2%E8%AE%B8%E5%8A%A0%E7%A9%BA%E6%A0%BC">^列表说明</a></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure><h3 id="12-换行是使用两个以上空格加上回车。"><a href="#12-换行是使用两个以上空格加上回车。" class="headerlink" title="12.换行是使用两个以上空格加上回车。"></a>12.<strong>换行是使用两个以上空格加上回车</strong>。</h3><h3 id="13-区块。-gt-符号-，然后后面紧跟一个空格符号："><a href="#13-区块。-gt-符号-，然后后面紧跟一个空格符号：" class="headerlink" title="13. 区块。**&gt;** 符号 ，然后后面紧跟一个空格符号："></a>13. 区块。**&gt;** 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure><p>效果如下：</p><blockquote><p>最外层</p><blockquote><p>第一层嵌套</p><blockquote><p>第二层嵌套</p></blockquote></blockquote></blockquote><p>区块中可以使用列表，列表中也可以使用区块。</p><h3 id="14-表格"><a href="#14-表格" class="headerlink" title="14.表格"></a>14.表格</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">略...</span><br></pre></td></tr></table></figure><h3 id="15-高级技巧"><a href="#15-高级技巧" class="headerlink" title="15.高级技巧"></a>15.高级技巧</h3><h4 id="支持的-HTML-元素"><a href="#支持的-HTML-元素" class="headerlink" title="支持的 HTML 元素"></a>支持的 HTML 元素</h4><p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p><p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等 ，如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑</span><br></pre></td></tr></table></figure><h4 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h4><p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">**文本加粗** </span><br><span class="line">\*\* 正常显示星号 \*\*</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure><h4 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h4><p>Markdown Preview Enhanced** 使用 <a href="https://github.com/Khan/KaTeX">KaTeX</a> 或者 <a href="https://github.com/mathjax/MathJax">MathJax</a> 来渲染数学表达式</p><h3 id="参考-：菜鸟教程"><a href="#参考-：菜鸟教程" class="headerlink" title="[参考]：菜鸟教程"></a>[参考]：<a href="https://www.runoob.com/markdown/md-advance.html">菜鸟教程</a></h3>]]></content>
       
       
       <categories>
           
-          <category> mysql </category>
+          <category> markdown </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 快捷键 </tag>
-            
-            <tag> 数据库 </tag>
+            <tag> markdown </tag>
             
         </tags>
       
@@ -82,13 +29,25 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2022/08/17/hello-world/"/>
-      <url>/2022/08/17/hello-world/</url>
+      <title>hexo常用命令及操作</title>
+      <link href="/2022/08/22/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%8F%8A%E6%93%8D%E4%BD%9C/"/>
+      <url>/2022/08/22/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%8F%8A%E6%93%8D%E4%BD%9C/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><p>&lt;– more –&gt;</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><span id="more"></span><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>hexo c</p><p>hexo g</p><p>hexo s</p><p>hexo d</p><p>新建md文件，hexo n “文件名” ，例如 hexo n “markdown笔记”</p><p>创建页面，hexo n page 待创建页面名，例如 hexo n page categories。然后进入categories.md文件，在date行下面加入type: “categories”。</p><p>关闭评论区。在文件添加comments: false。</p><p>参考链接：<a href="https://afuya.blog.csdn.net/">Awt_FuDongLai的博客</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     

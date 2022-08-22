@@ -6,7 +6,7 @@
   <link href="https://zhaoxin-wen.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoxin-wen.github.io/"/>
-  <updated>2022-08-18T01:11:49.862Z</updated>
+  <updated>2022-08-22T08:40:35.177Z</updated>
   <id>https://zhaoxin-wen.github.io/</id>
   
   <author>
@@ -17,96 +17,56 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试</title>
-    <link href="https://zhaoxin-wen.github.io/2022/08/18/%E6%B5%8B%E8%AF%95/"/>
-    <id>https://zhaoxin-wen.github.io/2022/08/18/%E6%B5%8B%E8%AF%95/</id>
-    <published>2022-08-18T01:11:49.000Z</published>
-    <updated>2022-08-18T01:11:49.862Z</updated>
+    <title>markdown语法</title>
+    <link href="https://zhaoxin-wen.github.io/2022/08/22/markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>https://zhaoxin-wen.github.io/2022/08/22/markdown%E8%AF%AD%E6%B3%95/</id>
+    <published>2022-08-22T01:47:15.000Z</published>
+    <updated>2022-08-22T08:40:35.177Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h3&gt;&lt;p&gt;markdown是写博客的必备知识。以下markdown语法按照个人喜好程度排序。本文包括不同等级标题，字体，建立分号线，删除线，下划线，脚注，代码段，链接，图片，列表，区块，表格，转义。&lt;/p&gt;
+&lt;h3 id=&quot;1-使用‘-’号一级标题，以此类推，最多六级标题&quot;&gt;&lt;a href=&quot;#1-使用‘-’号一级标题，以此类推，最多六级标题&quot; class=&quot;headerlink&quot; title=&quot;1.使用‘#’号一级标题，以此类推，最多六级标题&quot;&gt;&lt;/a&gt;1.使用‘#’号一级标题，以此类推，最多六级标题&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 一级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;## 二级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;### 三级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#### 四级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##### 五级标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###### 六级标题&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;2-字体&quot;&gt;&lt;a href=&quot;#2-字体&quot; class=&quot;headerlink&quot; title=&quot;2.字体&quot;&gt;&lt;/a&gt;2.字体&lt;/h3&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;*斜体文本*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;**粗体文本**&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;***粗斜体文本***&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;斜体文本&lt;/em&gt;&lt;br&gt;&lt;strong&gt;粗体文本&lt;/strong&gt;&lt;br&gt;&lt;em&gt;&lt;strong&gt;粗斜体文本&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</summary>
     
     
     
+    <category term="markdown" scheme="https://zhaoxin-wen.github.io/categories/markdown/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title>一篇正经的文章</title>
-    <link href="https://zhaoxin-wen.github.io/2022/08/17/%E4%B8%80%E7%AF%87%E6%AD%A3%E7%BB%8F%E7%9A%84%E6%96%87%E7%AB%A0/"/>
-    <id>https://zhaoxin-wen.github.io/2022/08/17/%E4%B8%80%E7%AF%87%E6%AD%A3%E7%BB%8F%E7%9A%84%E6%96%87%E7%AB%A0/</id>
-    <published>2022-08-17T15:06:05.000Z</published>
-    <updated>2022-08-17T15:10:10.237Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;我是一级标题&quot;&gt;&lt;a href=&quot;#我是一级标题&quot; class=&quot;headerlink&quot; title=&quot;我是一级标题&quot;&gt;&lt;/a&gt;我是一级标题&lt;/h1&gt;&lt;h2 id=&quot;我是二级标题。&quot;&gt;&lt;a href=&quot;#我是二级标题。&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="数据库" scheme="https://zhaoxin-wen.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="markdown" scheme="https://zhaoxin-wen.github.io/tags/markdown/"/>
     
   </entry>
   
   <entry>
-    <title>testcommit</title>
-    <link href="https://zhaoxin-wen.github.io/2022/08/17/testcommit/"/>
-    <id>https://zhaoxin-wen.github.io/2022/08/17/testcommit/</id>
-    <published>2022-08-17T09:15:37.000Z</published>
-    <updated>2022-08-17T09:16:18.602Z</updated>
+    <title>hexo常用命令及操作</title>
+    <link href="https://zhaoxin-wen.github.io/2022/08/22/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%8F%8A%E6%93%8D%E4%BD%9C/"/>
+    <id>https://zhaoxin-wen.github.io/2022/08/22/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%8F%8A%E6%93%8D%E4%BD%9C/</id>
+    <published>2022-08-22T01:40:35.000Z</published>
+    <updated>2022-08-22T08:40:22.302Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;dfdfdfstesat&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;hexo c&lt;/p&gt;
+&lt;p&gt;hexo g&lt;/p&gt;
+&lt;p&gt;hexo s&lt;/p&gt;
+&lt;p&gt;hexo d&lt;/p&gt;
+&lt;p&gt;新建md文件，hexo n “文件名” ，例如 hexo n “markdown笔记”&lt;/p&gt;
+&lt;p&gt;创建页面，hexo n page 待创建页面名，例如</summary>
         
       
     
     
     
-    
-    <category term="数据库" scheme="https://zhaoxin-wen.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>fourth</title>
-    <link href="https://zhaoxin-wen.github.io/2022/08/17/test/"/>
-    <id>https://zhaoxin-wen.github.io/2022/08/17/test/</id>
-    <published>2022-08-17T08:30:35.000Z</published>
-    <updated>2022-08-17T08:34:44.537Z</updated>
+    <category term="hexo" scheme="https://zhaoxin-wen.github.io/categories/hexo/"/>
     
     
-    
-    
-    <category term="mysql" scheme="https://zhaoxin-wen.github.io/categories/mysql/"/>
-    
-    
-    <category term="快捷键" scheme="https://zhaoxin-wen.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
-    <category term="数据库" scheme="https://zhaoxin-wen.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://zhaoxin-wen.github.io/2022/08/17/hello-world/"/>
-    <id>https://zhaoxin-wen.github.io/2022/08/17/hello-world/</id>
-    <published>2022-08-17T00:25:50.806Z</published>
-    <updated>2022-08-17T11:39:09.368Z</updated>
-    
-    
-    <summary type="html">自建的博客怎么能没有分类和标签呢，所以我就去查了一下怎么去配置分类和标签。</summary>
-    
-    
-    
+    <category term="hexo" scheme="https://zhaoxin-wen.github.io/tags/hexo/"/>
     
   </entry>
   
