@@ -6,7 +6,7 @@
   <link href="https://zhaoxin-wen.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoxin-wen.github.io/"/>
-  <updated>2022-08-22T08:40:35.177Z</updated>
+  <updated>2022-09-03T04:58:43.021Z</updated>
   <id>https://zhaoxin-wen.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>m3u8+idm下载加密视频</title>
+    <link href="https://zhaoxin-wen.github.io/2022/09/01/m3u8-idm%E4%B8%8B%E8%BD%BD%E5%8A%A0%E5%AF%86%E8%A7%86%E9%A2%91/"/>
+    <id>https://zhaoxin-wen.github.io/2022/09/01/m3u8-idm%E4%B8%8B%E8%BD%BD%E5%8A%A0%E5%AF%86%E8%A7%86%E9%A2%91/</id>
+    <published>2022-09-01T03:01:10.000Z</published>
+    <updated>2022-09-03T04:58:43.021Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;通过idm获取m3u8链接&lt;/li&gt;
+&lt;li&gt;粘贴链接到&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="tools" scheme="https://zhaoxin-wen.github.io/categories/tools/"/>
+    
+    
+    <category term="tools" scheme="https://zhaoxin-wen.github.io/tags/tools/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown语法</title>
