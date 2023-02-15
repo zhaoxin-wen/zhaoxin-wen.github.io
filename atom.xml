@@ -6,7 +6,7 @@
   <link href="https://zhaoxin-wen.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoxin-wen.github.io/"/>
-  <updated>2022-10-03T13:54:34.835Z</updated>
+  <updated>2023-02-15T15:10:36.045Z</updated>
   <id>https://zhaoxin-wen.github.io/</id>
   
   <author>
@@ -17,23 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>安达</title>
-    <link href="https://zhaoxin-wen.github.io/2022/10/03/%E5%AE%89%E8%BE%BE/"/>
-    <id>https://zhaoxin-wen.github.io/2022/10/03/%E5%AE%89%E8%BE%BE/</id>
-    <published>2022-10-03T13:51:38.000Z</published>
-    <updated>2022-10-03T13:54:34.835Z</updated>
+    <title>ajax笔记</title>
+    <link href="https://zhaoxin-wen.github.io/2023/02/15/ajax%E7%AC%94%E8%AE%B0/"/>
+    <id>https://zhaoxin-wen.github.io/2023/02/15/ajax%E7%AC%94%E8%AE%B0/</id>
+    <published>2023-02-15T14:49:35.000Z</published>
+    <updated>2023-02-15T15:10:36.045Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;img src=&quot;https://p.qlogo.cn/hy_personal/3e28f14aa05168421dc5ec7283aa92ab6cf0c4c8a502d3723ec9d08aac73a00a/0.png&quot;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;###2 express框架&lt;/p&gt;
+&lt;h4 id=&quot;express的基本使用&quot;&gt;&lt;a href=&quot;#express的基本使用&quot; class=&quot;headerlink&quot; title=&quot;express的基本使用&quot;&gt;&lt;/a&gt;express的基本使用&lt;/h4&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// 1. 引入express&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;const express = require(&amp;#x27;express&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 2.创建应用对象&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;const app = express();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 3.创建路由规则&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// request是对请求报文的封装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// response是对响应报文的封装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app.get(&amp;#x27;/&amp;#x27;, (request, response) =&amp;gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    response.send(&amp;#x27;HELLO EXPRESS&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 4.监听端口启动服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app.listen(8080, () =&amp;gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    console.log(&amp;quot;服务已经启动，8080端口监听中...&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
+    
+    <category term="ajax" scheme="https://zhaoxin-wen.github.io/tags/ajax/"/>
     
   </entry>
   
