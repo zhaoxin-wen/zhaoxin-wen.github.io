@@ -6,7 +6,7 @@
   <link href="https://zhaoxin-wen.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhaoxin-wen.github.io/"/>
-  <updated>2023-02-15T15:10:36.045Z</updated>
+  <updated>2023-04-07T08:27:53.418Z</updated>
   <id>https://zhaoxin-wen.github.io/</id>
   
   <author>
@@ -17,15 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>java反射</title>
+    <link href="https://zhaoxin-wen.github.io/2023/04/07/java%E5%8F%8D%E5%B0%84/"/>
+    <id>https://zhaoxin-wen.github.io/2023/04/07/java%E5%8F%8D%E5%B0%84/</id>
+    <published>2023-04-07T08:21:09.000Z</published>
+    <updated>2023-04-07T08:27:53.418Z</updated>
+    
+    
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;根据对象名获取对象的类&lt;/li&gt;
+&lt;li&gt;根据对象的方法名获取方法&lt;/li&gt;
+&lt;li&gt;根据第一步得到的类获得对应的构造器&lt;/li&gt;
+&lt;li&gt;根据第三步获得的构造器构造对象&lt;/li&gt;
+&lt;li&gt;根据第二步得到的方法操作第4步的对象&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="java" scheme="https://zhaoxin-wen.github.io/categories/java/"/>
+    
+    
+    <category term="反射" scheme="https://zhaoxin-wen.github.io/tags/%E5%8F%8D%E5%B0%84/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ajax笔记</title>
     <link href="https://zhaoxin-wen.github.io/2023/02/15/ajax%E7%AC%94%E8%AE%B0/"/>
     <id>https://zhaoxin-wen.github.io/2023/02/15/ajax%E7%AC%94%E8%AE%B0/</id>
     <published>2023-02-15T14:49:35.000Z</published>
-    <updated>2023-02-15T15:10:36.045Z</updated>
+    <updated>2023-03-06T16:13:28.769Z</updated>
     
     
-    <summary type="html">&lt;p&gt;###2 express框架&lt;/p&gt;
-&lt;h4 id=&quot;express的基本使用&quot;&gt;&lt;a href=&quot;#express的基本使用&quot; class=&quot;headerlink&quot; title=&quot;express的基本使用&quot;&gt;&lt;/a&gt;express的基本使用&lt;/h4&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// 1. 引入express&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;const express = require(&amp;#x27;express&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 2.创建应用对象&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;const app = express();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 3.创建路由规则&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// request是对请求报文的封装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// response是对响应报文的封装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app.get(&amp;#x27;/&amp;#x27;, (request, response) =&amp;gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    response.send(&amp;#x27;HELLO EXPRESS&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 4.监听端口启动服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app.listen(8080, () =&amp;gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    console.log(&amp;quot;服务已经启动，8080端口监听中...&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;express框架&quot;&gt;&lt;a href=&quot;#express框架&quot; class=&quot;headerlink&quot; title=&quot;express框架&quot;&gt;&lt;/a&gt;express框架&lt;/h3&gt;&lt;h4 id=&quot;express的基本使用&quot;&gt;&lt;a href=&quot;#express的基本使用&quot; class=&quot;headerlink&quot; title=&quot;express的基本使用&quot;&gt;&lt;/a&gt;express的基本使用&lt;/h4&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// 1. 引入express&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;const express = require(&amp;#x27;express&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 2.创建应用对象&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;const app = express();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 3.创建路由规则&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// request是对请求报文的封装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// response是对响应报文的封装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app.get(&amp;#x27;/&amp;#x27;, (request, response) =&amp;gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    response.send(&amp;#x27;HELLO EXPRESS&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 4.监听端口启动服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;app.listen(8080, () =&amp;gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    console.log(&amp;quot;服务已经启动，8080端口监听中...&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
