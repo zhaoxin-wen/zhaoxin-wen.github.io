@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>重启centos虚拟机后，宿主机无法连接docker的容器</title>
+      <link href="/2023/04/17/%E9%87%8D%E5%90%AFcentos%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%EF%BC%8C%E5%AE%BF%E4%B8%BB%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5docker%E7%9A%84%E5%AE%B9%E5%99%A8/"/>
+      <url>/2023/04/17/%E9%87%8D%E5%90%AFcentos%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%EF%BC%8C%E5%AE%BF%E4%B8%BB%E6%9C%BA%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5docker%E7%9A%84%E5%AE%B9%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-已经出现这种问题"><a href="#1-已经出现这种问题" class="headerlink" title="1. 已经出现这种问题"></a>1. 已经出现这种问题</h3><p>重启docker的容器。</p><p>第一条指令是停止所有正在运行的容器。</p><p>第二条指令是启动所有容器。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker stop $(docker ps -aq) </span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker start $(docker ps -aq) </span><br></pre></td></tr></table></figure><h3 id="2-防止出现这种问题"><a href="#2-防止出现这种问题" class="headerlink" title="2. 防止出现这种问题"></a>2. 防止出现这种问题</h3><p>在关闭虚拟机前先关闭docker的容器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker stop $(docker ps -aq)</span><br></pre></td></tr></table></figure><p>就不会出现这种问题。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>java反射</title>
       <link href="/2023/04/07/java%E5%8F%8D%E5%B0%84/"/>
       <url>/2023/04/07/java%E5%8F%8D%E5%B0%84/</url>
