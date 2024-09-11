@@ -20,28 +20,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"zhaoxin-wen.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"changyan","storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="根据对象名获取对象的类 根据对象的方法名获取方法 根据第一步得到的类获得对应的构造器 根据第三步获得的构造器构造对象 根据第二步得到的方法操作第4步的对象">
+    <meta name="description" content="docker常用指令列出所有正在运行的容器 1docker ps     列出所有容器，包括已经停止的容器 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777">
 <meta property="og:type" content="article">
-<meta property="og:title" content="java反射">
-<meta property="og:url" content="https://zhaoxin-wen.github.io/2023/04/07/java%E5%8F%8D%E5%B0%84/index.html">
+<meta property="og:title" content="centos docker常用命令">
+<meta property="og:url" content="https://zhaoxin-wen.github.io/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="zhaoxin-wen">
-<meta property="og:description" content="根据对象名获取对象的类 根据对象的方法名获取方法 根据第一步得到的类获得对应的构造器 根据第三步获得的构造器构造对象 根据第二步得到的方法操作第4步的对象">
+<meta property="og:description" content="docker常用指令列出所有正在运行的容器 1docker ps     列出所有容器，包括已经停止的容器 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-07T08:21:09.000Z">
-<meta property="article:modified_time" content="2023-04-07T08:27:53.418Z">
+<meta property="article:published_time" content="2023-04-17T01:41:52.000Z">
+<meta property="article:modified_time" content="2023-04-19T18:09:14.921Z">
 <meta property="article:author" content="zhaoxin-wen">
-<meta property="article:tag" content="反射">
+<meta property="article:tag" content="centos,docker">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://zhaoxin-wen.github.io/2023/04/07/java%E5%8F%8D%E5%B0%84/">
+<link rel="canonical" href="https://zhaoxin-wen.github.io/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://zhaoxin-wen.github.io/2023/04/07/java%E5%8F%8D%E5%B0%84/","path":"2023/04/07/java反射/","title":"java反射"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://zhaoxin-wen.github.io/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/","path":"2023/04/17/centos-docker常用命令/","title":"centos docker常用命令"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>java反射 | zhaoxin-wen</title>
+<title>centos docker常用命令 | zhaoxin-wen</title>
   
 
 
@@ -143,7 +143,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -156,6 +156,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#docker%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="nav-number">1.</span> <span class="nav-text">docker常用指令</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -230,7 +231,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://zhaoxin-wen.github.io/2023/04/07/java%E5%8F%8D%E5%B0%84/">
+    <link itemprop="mainEntityOfPage" href="https://zhaoxin-wen.github.io/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/headImg.png">
@@ -243,12 +244,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="java反射 | zhaoxin-wen">
+      <meta itemprop="name" content="centos docker常用命令 | zhaoxin-wen">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          java反射
+          centos docker常用命令
         </h1>
 
         <div class="post-meta-container">
@@ -258,22 +259,19 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-04-07 16:21:09 / 修改时间：16:27:53" itemprop="dateCreated datePublished" datetime="2023-04-07T16:21:09+08:00">2023-04-07</time>
+      <time title="创建时间：2023-04-17 09:41:52" itemprop="dateCreated datePublished" datetime="2023-04-17T09:41:52+08:00">2023-04-17</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
+        <i class="far fa-calendar-check"></i>
       </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
-        </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-04-20 02:09:14" itemprop="dateModified" datetime="2023-04-20T02:09:14+08:00">2023-04-20</time>
     </span>
 
   
-    <span id="/2023/04/07/java%E5%8F%8D%E5%B0%84/" class="post-meta-item leancloud_visitors" data-flag-title="java反射" title="阅读次数">
+    <span id="/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="post-meta-item leancloud_visitors" data-flag-title="centos docker常用命令" title="阅读次数">
       <span class="post-meta-item-icon">
         <i class="far fa-eye"></i>
       </span>
@@ -288,8 +286,8 @@
     </span>
     <span class="post-meta-item-text">Valine：</span>
   
-    <a title="valine" href="/2023/04/07/java%E5%8F%8D%E5%B0%84/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2023/04/07/java%E5%8F%8D%E5%B0%84/" itemprop="commentCount"></span>
+    <a title="valine" href="/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -300,14 +298,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>955</span>
+      <span>1.7k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -318,16 +316,34 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <ol>
-<li>根据对象名获取对象的类</li>
-<li>根据对象的方法名获取方法</li>
-<li>根据第一步得到的类获得对应的构造器</li>
-<li>根据第三步获得的构造器构造对象</li>
-<li>根据第二步得到的方法操作第4步的对象</li>
-</ol>
-<span id="more"></span>
+        <h2 id="docker常用指令"><a href="#docker常用指令" class="headerlink" title="docker常用指令"></a>docker常用指令</h2><p>列出所有正在运行的容器</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps  </span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">package com;</span><br><span class="line"></span><br><span class="line">import java.lang.reflect.Constructor;</span><br><span class="line">import java.lang.reflect.Method;</span><br><span class="line">/**</span><br><span class="line"> * @author wzw</span><br><span class="line"> * @date 2022/4/12 14:47</span><br><span class="line"> */</span><br><span class="line">public class Apple &#123;</span><br><span class="line"></span><br><span class="line">    private int price;</span><br><span class="line"></span><br><span class="line">    public int getPrice() &#123;</span><br><span class="line">        return price;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void setPrice(int price) &#123;</span><br><span class="line">        this.price = price;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public static void main(String[] args) throws Exception&#123;</span><br><span class="line"></span><br><span class="line">        //正常的调用</span><br><span class="line">        Apple apple = new Apple();</span><br><span class="line"></span><br><span class="line">        apple.setPrice(5);</span><br><span class="line"></span><br><span class="line">        System.out.println(&quot;Apple Price:&quot; + apple.getPrice());</span><br><span class="line"></span><br><span class="line">        //使用反射调用</span><br><span class="line">        Class clz = Class.forName(&quot;com.Apple&quot;);</span><br><span class="line">        Method setPriceMethod = clz.getMethod(&quot;setPrice&quot;, int.class);</span><br><span class="line">        Constructor appleConstructor = clz.getConstructor();</span><br><span class="line">        Object appleObj = appleConstructor.newInstance();</span><br><span class="line">        setPriceMethod.invoke(appleObj, 14);</span><br><span class="line">        Method getPriceMethod = clz.getMethod(&quot;getPrice&quot;);</span><br><span class="line">        System.out.println(&quot;Apple Price:&quot; + getPriceMethod.invoke(appleObj));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p> 列出所有容器，包括已经停止的容器</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line">docker ps -a</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">启动某个已停止的容器</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker start xxx  </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">停止某个容器</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker stop xxx </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">列出docker所有镜像</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker images </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">删除某个容器</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker rm xxx  </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line"> 启动nacos容器实例</span><br><span class="line"></span><br><span class="line">docker run --name nacos -e MODE=standalone -p 8848:8848 -d nacos/nacos-server </span><br><span class="line"></span><br><span class="line"> 进入xxx容器，xxx是该容器的id。例如docker exec -it 2e681c97ca94  /bin/bash</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker exec -it xxx(id)  /bin/bash  </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">启动mysql容器实例</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=abc123 -d mysql:8.0.26  </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">  启动docker所有容器</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker start $(docker ps -aq) </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line"> 停止docker所有容器</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">docker stop $(docker ps -aq)   </span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">停止Docker服务：</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">sudo systemctl stop docker</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">启动Docker服务：</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">sudo systemctl start docker</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">重启Docker服务：</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">sudo systemctl restart docker</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">我的docker里的mysql的id ： 2e681c97ca94</span><br><span class="line">nacos的id：e7ebd7d0f3c5</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>设置自动开启docker</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl enable docker</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>创建minio容器</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">docker run -p 9000:9000 -p 9090:9090 \</span><br><span class="line">     --name minio \</span><br><span class="line">     -d --restart=always \</span><br><span class="line">     -e &quot;MINIO_ACCESS_KEY=minioadmin&quot; \</span><br><span class="line">     -e &quot;MINIO_SECRET_KEY=minioadmin&quot; \</span><br><span class="line">     -v /home/minio/data:/data \</span><br><span class="line">     -v /home/minio/config:/root/.minio \</span><br><span class="line">     minio/minio server \</span><br><span class="line">     /data --console-address &quot;:9090&quot; -address &quot;:9000&quot;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>创建xxl-job容器</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">docker pull xuxueli/xxl-job-admin:2.3.1</span><br><span class="line"></span><br><span class="line">docker run -d \</span><br><span class="line">-e PARAMS=&quot;--spring.datasource.url=jdbc:mysql://192.168.134.135:3306/xxl_job?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;serverTimezone=UTC \</span><br><span class="line">--spring.datasource.username=&#x27;mysql的数据库&#x27; \</span><br><span class="line">--spring.datasource.password=&#x27;mysql的密码&#x27; \</span><br><span class="line">--spring.datasource.driver-class-name=com.mysql.jdbc.Driver&quot; \</span><br><span class="line">-p  8080:8080 \</span><br><span class="line">-v /home/gxm/docker:/data/applogs \</span><br><span class="line">--name my-xxl-job-admin-2.3.1  \</span><br><span class="line">-d xuxueli/xxl-job-admin:2.3.1</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
 
 
     </div>
@@ -355,20 +371,20 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/%E5%8F%8D%E5%B0%84/" rel="tag"># 反射</a>
+              <a href="/tags/centos-docker/" rel="tag"># centos,docker</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2023/02/15/ajax%E7%AC%94%E8%AE%B0/" rel="prev" title="ajax笔记">
-                  <i class="fa fa-chevron-left"></i> ajax笔记
+                <a href="/2023/04/07/java%E5%8F%8D%E5%B0%84/" rel="prev" title="java反射">
+                  <i class="fa fa-chevron-left"></i> java反射
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" rel="next" title="centos docker常用命令">
-                  centos docker常用命令 <i class="fa fa-chevron-right"></i>
+                <a href="/2023/04/17/vue-config%E9%85%8D%E7%BD%AE%E8%B7%A8%E5%9F%9F/" rel="next" title="vue config配置跨域">
+                  vue config配置跨域 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -455,7 +471,7 @@
 
 
 
-<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"Ri2crN3TwoHf7RdKQBwGzQ9s-gzGzoHsz","appKey":"sVunH9eMnnbReQJX8pqMxVcv","serverURLs":"https://ri2crn3t.lc-cn-n1-shared.com","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[],"el":"#valine-comments","path":"/2023/04/07/java%E5%8F%8D%E5%B0%84/"}</script>
+<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"Ri2crN3TwoHf7RdKQBwGzQ9s-gzGzoHsz","appKey":"sVunH9eMnnbReQJX8pqMxVcv","serverURLs":"https://ri2crn3t.lc-cn-n1-shared.com","placeholder":"Just go go","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":[],"el":"#valine-comments","path":"/2023/04/17/centos-docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"}</script>
 <script>
 document.addEventListener('page:loaded', () => {
   NexT.utils.loadComments(CONFIG.valine.el)
